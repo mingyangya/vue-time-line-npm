@@ -1,5 +1,5 @@
 {
-  "name": "vue-time-line",
+  "name": "v-time-line",
   "version": "0.0.1",
   "description": "基于vue.js的时间轴",
   "main": "src/index.js",
