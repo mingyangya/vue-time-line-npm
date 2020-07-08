@@ -1,21 +1,39 @@
 # vue-time-line
+
 ## 介绍
+
 vue时间轴
 
-- 文档：[Document](./doc/use/README.md)
+- 文档：[Document](./README.md)
 - 源码：[https://github.com/mingyangya/vue-time-line](https://github.com/mingyangya/vue-time-line) （欢迎 star）
 
-## 下载
+## 安装
 
-- 直接下载：[https://github.com/mingyangya/vue-time-line/releases](https://github.com/mingyangya/vue-time-line/releases)
-- 使用`npm`下载：`npm install vue-time-line`
-- 使用CDN：[https://unpkg.com/vue-time-line/release/vue-time-line.js](https://unpkg.com/vue-time-line/release/vue-time-line.js)
+```bash
+npm install swiper vue-time-line --save
+# or
+yarn add swiper vue-time-line
+```
 
-
-## 使用
+## 全局引用
 
 ```javascript
-var easyFun=EasyFunction;
+import Vue from 'vue'
+import TimeLine from 'vue-time-line'
+
+Vue.use(TimeLine, /* { default options with global component } */)
+```
+
+## 局部引用
+
+```javascript
+import { TimeLine } from 'vue-time-line'
+
+export default {
+  components: {
+    TimeLine
+  }
+}
 ```
 
 ### 提问

@@ -1,5 +1,3 @@
-import Vue from 'vue'
-
 const timeLine = {};
 import TimeLine from "./components/TimeLine"
 
@@ -26,7 +24,6 @@ timeLine.install = function (Vue, options) {
     console.log(TimeLine);
     Vue.component(TimeLine.name, TimeLine);
 };
-
 
 export {TimeLine};
 export default timeLine;
