@@ -1,0 +1,11 @@
+{
+  "name": "vue-time-line",
+  "version": "0.0.1",
+  "description": "基于vue.js的时间轴",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "http-server -p 8888"
+  },
+  "author": "haomingyang",
+  "license": "ISC"
+}
