@@ -36,7 +36,11 @@ const timeChangeSecond = (time, reverse = false) => {
     return result;
 };
 
-
+/***
+ * 渲染len条随机数据
+ * @param len
+ * @return {Array}
+ */
 const randomData = (len = 0) => {
     let lists = [];
     for (let i = 0; i < len; i++) {
@@ -44,7 +48,6 @@ const randomData = (len = 0) => {
     }
     return lists;
 };
-randomData(5)
 module.exports = {
     timeChangeSecond,
     randomData

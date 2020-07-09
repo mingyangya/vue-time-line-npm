@@ -126,9 +126,7 @@
                     }
                 })
             },
-            filterIndex(lists, id) {
-                return lists.findIndex(list => list.id === id);
-            },
+
             getPosition(lists) {
                 let positions = [];
                 lists.forEach((list, i) => {
@@ -214,10 +212,6 @@
                         bottom: this.makePosition(i)
                     }
                 }
-            },
-            centerPosition() {
-                //选中后位于中心
-                return this.pxChangeVw(50);
             },
             pxChangeVw(px) {
                 return px + 'px';

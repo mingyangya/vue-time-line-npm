@@ -2,12 +2,10 @@ const timeLine = {};
 import TimeLine from "./components/TimeLine"
 
 timeLine.install = function (Vue, options) {
-    console.log(options);
     Vue.prototype.$version = '0.0.1';
     // todo 添加全局方法或 property
     Vue.prototype.$func = function () {
         // 逻辑...
-        console.log('func')
     };
     // todo 添加全局资源
     Vue.directive('my-directive', {
@@ -21,7 +19,6 @@ timeLine.install = function (Vue, options) {
             // 逻辑...
         }
     });
-    console.log(TimeLine);
     Vue.component(TimeLine.name, TimeLine);
 };
 
