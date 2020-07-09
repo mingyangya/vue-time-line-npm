@@ -6,6 +6,17 @@
   "scripts": {
     "example": "http-server -p 8888"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingyangya/vue-time-line-npm.git"
+  },
+  "keywords": [
+    "vue","time-line"
+  ],
+  "bugs": {
+    "url": "https://github.com/mingyangya/vue-time-line-npm/issues"
+  },
+  "homepage": "https://github.com/mingyangya/vue-time-line-npm#readme",
   "author": "haomingyang",
   "license": "ISC"
 }
