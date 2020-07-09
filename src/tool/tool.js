@@ -44,7 +44,7 @@ const timeChangeSecond = (time, reverse = false) => {
 const randomData = (len = 0) => {
     let lists = [];
     for (let i = 0; i < len; i++) {
-        lists.push({id: i, name: "卡片" + (i + 1), duration: Math.round(Math.random(0,1)*600)});
+        lists.push({id: i, name: "卡片" + (i + 1), duration: Math.round(Math.random(0, 1) * 500 + 100)});
     }
     return lists;
 };
