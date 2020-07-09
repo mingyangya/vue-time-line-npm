@@ -7,6 +7,11 @@ vue时间轴
 - 文档：[Document](//github.com/mingyangya/vue-time-line-npm/wiki)
 - 源码：[https://github.com/mingyangya/vue-time-line-npm](https://github.com/mingyangya/vue-time-line-npm) （欢迎 star）
 
+
+- 演示
+
+    ![timeline.gif](./media/timeline.gif)
+
 ## 安装
 
 ```bash
